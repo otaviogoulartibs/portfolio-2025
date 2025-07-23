@@ -136,6 +136,13 @@ body {
   background-color: #066888;
 }
 
+.disabled-link {
+  pointer-events: none;
+  opacity: 0.7;
+  cursor: default;
+}
+
+
 .projetos-linguagens-container {
   display: flex;
   flex-direction: row;
